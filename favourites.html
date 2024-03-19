@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&family=Roboto+Flex:opsz,wght@8..144,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+
+    <title>Tranquil Travels</title>
+  </head>
+  <body>
+    <nav class="fixed-navigation">
+      <a href="index.html#"><img class="logo" src="./Assets/logo.svg" /></a>
+      <ul class="nav-links">
+        <li><a class="nav-link" href="index.html#">Home</a></li>
+        <li><a class="nav-link" href="index.html#browse">Browse</a></li>
+        <li><a class="nav-link" href="index.html#rent">Rent with us</a></li>
+        <li><a class="nav-link" href="favourites.html">Favourites</a></li>
+        <li><a class="nav-link" href="index.html#">Sign up</a></li>
+        <button class="button primary">Log in</button>
+      </ul>
+      <button class="button primary hidden">Menu</button>
+    </nav>
+
+    <section id="favourites" class="favourites-section">
+      <p class="title-large">Favourite offers</p>
+      <div>
+        <input
+          class="searchbar"
+          placeholder="Search by hotel name, place etc."
+        />
+        <section class="grid hotel-cards">
+          <article class="hotel-card">
+            <div class="card-image">
+              <p class="chip">Florence</p>
+              <i class="icon glyphicon glyphicon-heart"></i>
+            </div>
+            <p class="text-middle">Harmony Hideaway Hotel</p>
+            <p class="text-small">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              dapibus quis felis a venenatis. Suspendisse accumsan aliquam
+              lorem, sit amet ultricies justo tristique nec.
+            </p>
+            <div class="hotel-card-footer">
+              <p class="text-middle">★★★★★</p>
+              <p class="text-middle">100€/room</p>
+            </div>
+            <button class="green-button">
+              <a href="hotel_page.html"
+                >View offer <img src="Assets/Arrow.svg"
+              /></a>
+            </button>
+          </article>
+
+          <article class="hotel-card">
+            <div class="card-image">
+              <p class="chip">Florence</p>
+              <i class="icon glyphicon glyphicon-heart"></i>
+            </div>
+            <p class="text-middle">Harmony Hideaway Hotel</p>
+            <p class="text-small">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              dapibus quis felis a venenatis. Suspendisse accumsan aliquam
+              lorem, sit amet ultricies justo tristique nec.
+            </p>
+            <div class="hotel-card-footer">
+              <p class="text-middle">★★★★★</p>
+              <p class="text-middle">100€/room</p>
+            </div>
+            <button class="green-button">
+              <a href="hotel_page.html"
+                >View offer <img src="Assets/Arrow.svg"
+              /></a>
+            </button>
+          </article>
+        </section>
+      </div>
+    </section>
+  </body>
+</html>
