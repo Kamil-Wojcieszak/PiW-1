@@ -139,7 +139,7 @@ body {
   grid-column: 8/13;
   display: flex;
   flex-direction: column;
-  background-image: url(./Assets/hero.jpg);
+  background-image: url(Assets/hero.jpg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
@@ -186,11 +186,11 @@ body {
   height: 300px;
 }
 .hero-cards > .card-image:nth-child(1) {
-  background-image: url(./Assets/heroSmall1.jpeg);
+  background-image: url(Assets/heroSmall1.jpeg);
 }
 
 .hero-cards > .card-image:nth-child(2) {
-  background-image: url(./Assets/heroSmall2.jpg);
+  background-image: url(Assets/heroSmall2.jpg);
 }
 
 .chip {
@@ -287,20 +287,19 @@ body {
 }
 
 .hotel-card:nth-child(1) > .card-image {
-  background-image: url(./Assets/cards1.jpg);
+  background-image: url(Assets/cards1.jpg);
 }
 .hotel-card:nth-child(2) > .card-image {
-  background-image: url(./Assets/cards2.jpg);
+  background-image: url(Assets/cards2.jpg);
 }
 .hotel-card:nth-child(3) > .card-image {
-  background-image: url(./Assets/cards3.jpg);
+  background-image: url(Assets/cards3.jpg);
 }
 .hotel-card:nth-child(4) > .card-image {
-  background-image: url(./Assets/cards4.jpg);
+  background-image: url(Assets/cards4.jpg);
 }
 
 .text-small {
-  text-wrap: balance;
   text-align: justify;
   text-justify: inter-word;
   line-height: 24px;
@@ -320,7 +319,7 @@ body {
 .footer > .card-image {
   grid-column: 1/7;
   height: 400px;
-  background-image: url(./Assets/footer.jpg);
+  background-image: url(Assets/footer.jpg);
   border-radius: var(--radius-medium);
 }
 
