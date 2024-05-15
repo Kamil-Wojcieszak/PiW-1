@@ -16,7 +16,6 @@ const hotelData = [
         city: "Madrid",
         stars: 5,
         price: 250,
-        imageURL: "/cards1.jpg"
     },
     {
         id: 3,
