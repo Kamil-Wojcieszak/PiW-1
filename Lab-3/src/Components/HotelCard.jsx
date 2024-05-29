@@ -1,10 +1,23 @@
-import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-const HotelCard = ({name,description,city,stars,price}) => {
+const HotelCard = ({ name, description, city, stars, price }) => {
+	const navigate = useNavigate();
 
+	const routeChange = () => {
+		let path = `/hotel-page`;
+		navigate(path, {
+			state: {
+				name: name,
+				description: description,
+				city: city,
+				stars: stars,
+				price: price
+			}
+		});
+	}
 
 	return (
-		<article className="hotel-card">
+		<article className="hotel-card" onClick={routeChange}>
 			<div className="card-image">
 				<p className="chip">{city}</p>
 			</div>

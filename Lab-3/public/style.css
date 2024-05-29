@@ -271,6 +271,7 @@ body {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
+  cursor: pointer;
 }
 
 .hotel-card:nth-child(1) {
