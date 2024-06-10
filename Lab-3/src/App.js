@@ -6,12 +6,12 @@ import {
     Outlet,
     BrowserRouter
 } from 'react-router-dom';
-import Home from "./Pages/Home";
-import HotelPage from "./Pages/HotelPage";
-import Nav from "./Components/Nav";
-import Footer from "./Components/Footer";
+import Home from "./pages/Home";
+import HotelPage from "./pages/HotelPage";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 import {Component} from "react";
-import LoginPage from "./Pages/LoginPage";
+import LoginPage from "./pages/LoginPage";
 
 function AppLayout() {
     return (
