@@ -9,6 +9,6 @@ export const AuthProvider = ({ children }) => {
 
     useEffect(() => {
         return onAuthStateChanged(auth, initializeUser);
-    }, []);
+    }, []);;
 }
 
